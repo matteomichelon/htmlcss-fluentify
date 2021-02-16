@@ -1,0 +1,28 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+    background-color: #0c325a;
+    height: 550px;
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    /* dimensioni immagine */
+    background-repeat: no-repeat;
+    /* l'immagine non si ripete */
+    background-position: 108% 112%;
+    /* grazie all'inspector trovo la posizione corretta dell'immagine */
+}
+
+/* HEADER */
