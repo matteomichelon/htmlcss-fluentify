@@ -49,6 +49,10 @@ header {
     border: 1px solid white;
 }
 
+.grey-text{
+    color: #808080;
+}
+
 /* HEADER */
 
 .header-container {
@@ -98,12 +102,29 @@ header {
 
 /* Teaser */
 
-.teaser{
+.teaser {
     margin-top: 15%;
     font-size: 40px;
     width: 50%;
 }
 
-.teaser .button{
+.teaser .button {
     margin-top: 3%;
+}
+
+/* MAIN */
+
+.title {
+    background-color: #d3d3d3;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title h2 {
+    padding-top: 2%;   
+}
+
+.title h3 {
+    padding-top: 1%;      
 }
