@@ -6,11 +6,15 @@
     box-sizing: border-box;
 }
 
-/* COMMON */
-
 img {
     width: 100%;
     display: block;
+}
+
+/* COMMON */
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -25,4 +29,63 @@ header {
     /* grazie all'inspector trovo la posizione corretta dell'immagine */
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* HEADER */
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 15px;
+}
+
+/* Logo */
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/* Menu */
+
+.col {
+    float: left;
+
+}
+
+.logo {
+    width: 12%;
+}
+
+.list {
+    padding-top: 20px;
+}
+
+.menu-central {
+    width: 50%;
+    padding-left: 3%;
+}
+
+.menu-right {
+    width: 38%;
+    text-align: right;
+}
+
+/* List */
+
+.list ul li {
+    display: inline-block;
+}
+
+.list a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-left: 20px;
+}
