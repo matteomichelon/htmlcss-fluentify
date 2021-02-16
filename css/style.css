@@ -35,6 +35,20 @@ header {
     clear: both;
 }
 
+.button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #7cbb02;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.button-transparent {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
 /* HEADER */
 
 .header-container {
@@ -44,22 +58,14 @@ header {
     padding-top: 15px;
 }
 
-/* Logo */
-
-.logo img {
-    height: 50px;
-    width: auto;
-}
-
 /* Menu */
 
 .col {
     float: left;
-
 }
 
 .logo {
-    width: 12%;
+    width: 10%;
 }
 
 .list {
@@ -72,7 +78,7 @@ header {
 }
 
 .menu-right {
-    width: 38%;
+    width: 40%;
     text-align: right;
 }
 
@@ -88,4 +94,16 @@ header {
     color: white;
     font-size: 12px;
     margin-left: 20px;
+}
+
+/* Teaser */
+
+.teaser{
+    margin-top: 15%;
+    font-size: 40px;
+    width: 50%;
+}
+
+.teaser .button{
+    margin-top: 3%;
 }
