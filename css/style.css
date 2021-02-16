@@ -17,18 +17,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    background-color: #0c325a;
-    height: 550px;
-    background-image: url("../img/background-header.png");
-    background-size: 1000px;
-    /* dimensioni immagine */
-    background-repeat: no-repeat;
-    /* l'immagine non si ripete */
-    background-position: 108% 112%;
-    /* grazie all'inspector trovo la posizione corretta dell'immagine */
-}
-
 .clearfix {
     content: "";
     display: table;
@@ -49,11 +37,44 @@ header {
     border: 1px solid white;
 }
 
-.grey-text{
+.grey-text {
     color: #808080;
 }
 
+.green-text {
+    color: #7cbb02;
+}
+
+/* Col img */
+
+.img-object-fit {
+    height: 100%;
+    object-fit: cover;
+    /* questa struttura ci permette di mantenere
+    l'immagine all'interno del nostro container */
+}
+
+.col-img-container {
+    height: 260px;
+}
+
+.margin-block {
+    margin-bottom: 5%;
+}
+
 /* HEADER */
+
+header {
+    background-color: #0c325a;
+    height: 550px;
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    /* dimensioni immagine */
+    background-repeat: no-repeat;
+    /* l'immagine non si ripete */
+    background-position: 108% 112%;
+    /* grazie all'inspector trovo la posizione corretta dell'immagine */
+}
 
 .header-container {
     width: 80%;
@@ -114,6 +135,8 @@ header {
 
 /* MAIN */
 
+/* Section-title */
+
 .title {
     background-color: #d3d3d3;
     height: 150px;
@@ -122,9 +145,57 @@ header {
 }
 
 .title h2 {
-    padding-top: 2%;   
+    padding-top: 2%;
 }
 
 .title h3 {
-    padding-top: 1%;      
+    padding-top: 1%;
+}
+
+/* Section-middle */
+
+main .container-middle {
+    width: 80%;
+    margin: 1% auto;
+    height: 500px;
+    text-align: center;
+}
+
+.main-col {
+    float: left;
+    margin: 0 2%;
+}
+
+.col-left, .col-right, .col-center {
+    width: 29%;
+}
+
+.col-left img {
+    width: 48%;
+    margin: auto;
+}
+
+.col-center img {
+    width: 76%;
+    margin: auto;
+}
+
+.col-right img {
+    width: 53%;
+    margin: auto 15%;
+}
+
+.container-middle h2 {
+    font-size: 34px;
+}
+
+.container-middle hr {
+    margin: auto;
+    width: 20%;
+}
+
+.container-middle h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
 }
