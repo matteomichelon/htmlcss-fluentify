@@ -29,7 +29,9 @@ body {
     background-color: #7cbb02;
     display: inline-block;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
 }
 
 .button-transparent {
@@ -44,6 +46,8 @@ body {
 .green-text {
     color: #7cbb02;
 }
+
+
 
 /* Col img */
 
@@ -74,35 +78,35 @@ header {
     /* l'immagine non si ripete */
     background-position: 108% 112%;
     /* grazie all'inspector trovo la posizione corretta dell'immagine */
+    padding-top: 15px;
 }
 
-.header-container {
+nav {
     width: 80%;
     margin: 0 auto;
     color: white;
-    padding-top: 15px;
 }
 
 /* Menu */
 
-.col {
+header .col {
     float: left;
 }
 
-.logo {
+header .logo {
     width: 10%;
 }
 
-.list {
-    padding-top: 20px;
-}
-
-.menu-central {
+header .menu-central {
     width: 50%;
     padding-left: 3%;
 }
 
-.menu-right {
+header .list {
+    padding-top: 20px;
+}
+
+header .menu-right {
     width: 40%;
     text-align: right;
 }
@@ -135,6 +139,12 @@ header {
 
 /* MAIN */
 
+section{
+    padding: 40px 0;
+    /* in tutte e 3 le sezioni sono le stesse distanze! */
+}
+
+
 /* Section-title */
 
 .title {
@@ -144,20 +154,14 @@ header {
     text-align: center;
 }
 
-.title h2 {
-    padding-top: 2%;
-}
-
-.title h3 {
-    padding-top: 1%;
-}
 
 /* Section-middle */
 
 main .container-middle {
     width: 80%;
     margin: 1% auto;
-    height: 500px;
+    /* height: 500px; */
+    /* non serve  */
     text-align: center;
 }
 
